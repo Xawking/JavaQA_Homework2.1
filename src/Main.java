@@ -10,11 +10,11 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int finalbalance = balance + deposit + bonus;
+        int finalBalance = balance + deposit + bonus;
         System.out.println("Баланс:" + balance);
         System.out.println("Сумма пополнения:" + deposit);
         System.out.println("Бонус:" + bonus);
-        System.out.println("Итоговый баланс:" + finalbalance);
+        System.out.println("Итоговый баланс:" + finalBalance);
 
     }
 }
